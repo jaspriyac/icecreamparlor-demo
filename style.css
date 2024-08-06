@@ -1,0 +1,247 @@
+
+/*CSS for text area*/
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* Set font family for all elements */
+* {
+  font-family: 'Fredoka One', cursive;
+}
+
+/* Optional: Set font size for all elements */
+body {
+  font-size: 16px;
+}
+
+
+/* Set font weight for specific elements */
+h1, h2 {
+  font-weight: bold;
+}
+
+/* Set font style for specific elements */
+em {
+  font-style: italic;
+}
+
+/* Optional: Set line height for all elements */
+body {
+  line-height: 1.5;
+}
+
+/* Optional: Set text color for all elements */
+body {
+  color: #333;
+}
+
+/* Optional: Change font for specific elements in tables */
+table td,
+table th {
+  font-family: 'Fredoka One', cursive;
+}
+
+/* Optional: Change font for buttons and input fields */
+button,
+input[type="button"],
+input[type="submit"] {
+  font-family: 'Fredoka One', cursive;
+}
+
+/* Optional: Change font for other specific elements */
+.navbar-brand,
+.tagline,
+.description {
+  font-family: 'Fredoka One', cursive;
+}
+
+/*CSS for landing page*/
+.landing {
+    background-image: url('landing1.png');
+    background-repeat: y - repeat;
+   
+  }
+
+/*CSS for body*/
+body {
+    background-image: url('landing1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: y - repeat;
+  }
+
+/*CSS for input tags*/
+input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(3em + 2px);
+    margin: 0 0 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1.5em;
+    background: #fff;
+    resize: none;
+    outline: none;
+  }
+
+  input[type="email"] {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(3em + 2px);
+    margin: 0 0 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1.5em;
+    background: #fff;
+    resize: none;
+    outline: none;
+  }
+
+  input[type="password"] {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(3em + 2px);
+    margin: 0 0 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1.5em;
+    background: #fff;
+    resize: none;
+    outline: none;
+  }
+
+/*CSS for textarea*/
+
+  textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(3em + 2px);
+    margin: 0 0 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1.5em;
+    background: #fff;
+    resize: none;
+    outline: none;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  
+  
+
+/* CSS for buttons*/
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+/*CSS for anchor tag*/
+a{
+    text-decoration: none;
+    color: #39739d;
+}
+
+/*CSS for table tag*/
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #7aa7c7;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid #7aa7c7;
+    padding: 8px;
+    text-align: left;
+    background-color: #e1ecf4;
+    opacity: 80%;
+    color: #39739d;
+  }
+  
+  table th {
+    background-color:#e1ecf4;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select,{
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(3em + 2px);
+    margin: 0 0 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1.5em;
+    background: #fff;
+    resize: none;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #39739d;
+  }
+  
+  select {
+    height: 38px;
+    color: #39739d;
+  }
+
+  ::placeholder { 
+    color: #39739d;
+   }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  
